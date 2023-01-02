@@ -7,8 +7,8 @@
 # Print the statement "Your band name could be {input1 + " " + input2}"
 
 print("Welcome to the Band Name Generator")
-answer1 = input("What's the name of the city you grew up in?")
+answer1 = input("What's the name of the city you grew up in?\n")
 print(" " + answer1)
-answer2 = input("What's your pet's name?")
+answer2 = input("What's your pet's name?\n")
 print(" " + answer2)
 print("Your band name could be % s" % (answer1 + " " + answer2))
